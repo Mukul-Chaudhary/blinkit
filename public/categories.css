@@ -1,0 +1,28 @@
+
+.categoryContainers{
+    width: 100%;
+    height: auto;
+    /* margin: 1rem 1.5rem; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap:wrap; */
+    /* background-color: navy; */
+    border: none;
+    box-sizing: border-box;
+}
+.subHeading{
+    margin: 30px 0 30px 160px;
+    text-align: left;
+}
+.fa-clock{
+    margin:0px 5px ;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.dairyCard{
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    /* background-color: black; */
+}

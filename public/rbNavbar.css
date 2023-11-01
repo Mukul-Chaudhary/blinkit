@@ -1,0 +1,55 @@
+.navContainer{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}   
+.d-flex{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.nav-item{
+    margin: 10px 10px;
+}
+.nav-option{
+    padding-left: 100%;
+}
+.logo{
+    display: flex;
+    font-size: 100px;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.location{
+    margin-left:30px;
+    font-size: 120%;
+    font-weight: bold;
+}
+.login{
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: auto;
+}
+.cart , button{
+    background-color: #0C831F;
+    border: none;
+    color: white;
+} 
+.collapse{
+    flex-direction: row-reverse;
+    align-items: center;
+}
+ul{
+    align-items: center;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:992px){
+    .d-flex{
+        width: 100%;
+    }
+}
